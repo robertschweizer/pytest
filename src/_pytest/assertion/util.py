@@ -14,6 +14,7 @@ u = six.text_type
 # loaded and in turn call the hooks defined here as part of the
 # DebugInterpreter.
 _reprcompare = None
+_before_assert = None
 
 
 # the re-encoding is needed for python2 repr
